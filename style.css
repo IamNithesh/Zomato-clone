@@ -503,6 +503,38 @@ header
     width: 45%;   
 }
 
+/* Section-6 */
+.sec-1
+{
+   margin-left: 80px;
+   height: 65vh;
+  
+}
+.sec-1 h1{
+    margin-top: 50px;
+    margin-left: 23px;
+    font-size: 30px;
+    color: #363636;
+    font-weight: 500;
+}
+.clasic-card
+{    
+    width: 90%;
+    border: 1px solid lightgray;
+    border-radius: 8px;          
+    margin: 20px;
+    align-items: center;   
+}
+.clasic-card h3{
+    padding-left: 30px;
+    font-size: 20px;
+    color: #1c1c1c;
+    font-weight: 400;    
+}
+.bi-chevron-down
+{
+    padding-left: 70%;
+}
 /* Section-5 */
 
 .section-5
@@ -525,36 +557,78 @@ header
    padding-left: 30px; 
    width: 40%;
 }
+.nav-right
+{
+    display: flex;   
+    justify-content: end;
+    gap: 3rem;       
+}
 
-.country h3
-{
-    padding: 7px 15px;
-    font-size: 15px;
-    font-weight: 400;
-    border: 1px solid lightgray;
-    border-radius: 5px;    
-}
-.bi-globe2
-{
-    font-weight: 500;
-    padding-right: 10px;
-}
-.country
+.flag h3
 {
     display: flex;
-    gap: 1.5rem;
-    padding-right: 70px;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5rem;
+    padding: auto;
+    border: 1px solid lightgray;
+    height: 35px;        
+    border-radius: 5px;    
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    
+}
+.flag h3 .bi-chevron-compact-down
+{
+    padding-right: 10px;
+}
+.nav-right .bi-chevron-down
+{
+    font-weight: 700;
+    color: #1c1c1c;
+}
+.nav-right .flag .flag-img
+{
+   width: 23px;   
+   text-align: center;
+   padding-bottom: 20px;
+   gap: 0.5rem;
+}
+.lang h3
+{
+    display: flex;
+    justify-content: start;
+    gap: 0.5rem;
+    padding: auto;
+    height: 35px;
+    border: 1px solid lightgray;
+    border-radius: 5px;   
+    align-items: center;
+    text-align: center; 
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.lang h3 .bi-globe2
+{
+    padding-left: 10px;
+}
+.lang h3 .bi-chevron-compact-down
+{
+    padding-right: 10px;
 }
 .footer-desc
 {
     display: flex;
     padding-left: 70px;   
     gap:3rem;
+    margin-bottom: 20px;
 }
 .footer-desc ul
 {
-   list-style: none;
-   
+   list-style: none;   
 }
 .footer-section-1  h3
 {
